@@ -1,0 +1,16 @@
+{
+  "name" : "Automation Test",
+  "email" : "automationtest_",
+  "password" : "password",
+  "first_name" : "Automation_Firstname",
+  "last_name" : "Automation_Lastname",
+  "messages" :
+  {
+    "verifyRegisterPage" : "New User Signup!",
+    "verifyAccountCreated" : "ACCOUNT CREATED!",
+    "verifyLoggedInAs" : "Logged in as ",
+    "verifyAccountDeleted" : "ACCOUNT DELETED!",
+    "verifyEmailAlreadyExist" : "Email Address already exist!",
+    "VerifyLoginFailed" : "Your email or password is incorrect!"
+  }
+}

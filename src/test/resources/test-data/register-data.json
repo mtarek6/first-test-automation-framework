@@ -1,0 +1,28 @@
+{
+  "name" : "Automation Test",
+  "email" : "automationtest_",
+  "titleMale" : "Mr",
+  "titleFemale" : "Mrs",
+  "password" : "password",
+  "day" : "6",
+  "month" : "December",
+  "year" : "1990",
+    "first_name" : "Automation_Firstname",
+    "last_name" : "Automation_Lastname",
+    "company" : "Automation Company",
+    "address1" : "123 Automation St",
+    "address2" : "Suite 100",
+    "country" : "India",
+    "state" : "Cairo",
+    "city" : "Cairo",
+    "zipcode" : "12345",
+    "mobile_number" : "0123456789",
+  "messages" :
+  {
+    "verifyRegisterPage" : "New User Signup!",
+    "verifyAccountCreated" : "ACCOUNT CREATED!",
+    "verifyLoggedInAs" : "Logged in as ",
+    "verifyAccountDeleted" : "ACCOUNT DELETED!",
+    "verifyEmailAlreadyExist" : "Email Address already exist!"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name" : "Automation_checkout",
+  "email" : "automation_checkout_",
+  "titleMale" : "Mr",
+  "titleFemale" : "Mrs",
+  "password" : "password",
+  "day" : "6",
+  "month" : "December",
+  "year" : "1990",
+    "first_name" : "Automation_Firstname",
+    "last_name" : "Automation_Lastname",
+    "company" : "Automation Company",
+    "address1" : "123 Automation St",
+    "address2" : "Suite 100",
+    "country" : "India",
+    "state" : "Cairo",
+    "city" : "Cairo",
+    "zipcode" : "12345",
+    "mobile_number" : "0123456789",
+  "product": {
+    "name": "Men Tshirt",
+    "price": "Rs. 400",
+    "quantity": "1",
+    "total": "Rs. 400"
+  },
+  "messages" :
+  {
+    "verifyAccountCreated" : "ACCOUNT CREATED!",
+    "verifyLoggedInAs" : "Logged in as ",
+    "addedToCart": "Your product has been added to cart."
+  }
+}

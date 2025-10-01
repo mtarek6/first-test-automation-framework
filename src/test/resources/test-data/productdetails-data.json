@@ -1,0 +1,16 @@
+{
+  "product": {
+    "name": "Blue Top",
+    "price": "Rs. 500",
+    "quantity": "1",
+    "total": "Rs. 500"
+  },
+  "review": {
+    "name": "Automation Tester",
+    "email": "automationtester@gmail.com",
+    "text": "I really liked this product. It fits well and the quality is excellent."
+  },
+  "messages": {
+    "reviewSubmitted": "Thank you for your review."
+  }
+}
