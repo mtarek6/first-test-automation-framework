@@ -26,7 +26,14 @@ public class ChromeFactory extends AbstractDriver  {
         options.addArguments("--start-maximized");
         Map<String, Object> prefs = new HashMap<>();
         String userDir = System.getProperty("user.dir");
-        String downloadPath = userDir + "\\src\\test\\resources\\downloads";
+        String downloadPath = userDir + File.separator +
+                "src" +
+                File.separator +
+                "test" +
+                File.separator +
+                "resources" +
+                File.separator +
+                "downloads";
         prefs.put("profile.default_content_settings.popups", 0);
         prefs.put("download.prompt_for_download", false);
         prefs.put("download.default_directory",downloadPath);
