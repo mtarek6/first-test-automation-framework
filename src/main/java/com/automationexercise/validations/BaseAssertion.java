@@ -58,9 +58,7 @@ public abstract class BaseAssertion {
 
     //verify that a file exists
     public void assertFileExists(String fileName, String message) {
-        waitManager.fluentWait().until(
-                d -> FileUtils.isFileExists(fileName)
-        );
-        assertTrue(FileUtils.isFileExists(fileName), message);
+        boolean fileExists = FileUtils.isFileExist(fileName, 3);
+        assertTrue(fileExists, message);
     }
 }
