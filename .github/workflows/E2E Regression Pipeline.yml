@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 env:
-  TARGET: "%regex[.*Tests.*],com.automationexercices.tests.**.**,com.automationexercices.tests.**"
+  TARGET: "%regex[.*Tests.*],com.automationexercise.tests.**.**,com.automationexercise.tests.**"
 
 jobs:
   Chrome_Linux_Test:
@@ -32,7 +32,7 @@ jobs:
       - name: setup maven
         uses: stCarolas/setup-maven@v5
         with:
-          maven-version: 3.9.9
+          maven-version: 3.9.11
 
       - name: Running Tests
         continue-on-error: true
@@ -61,7 +61,7 @@ jobs:
       - name: setup maven
         uses: stCarolas/setup-maven@v5
         with:
-          maven-version: 3.9.9
+          maven-version: 3.9.11
 
       - name: Running Tests
         continue-on-error: true
